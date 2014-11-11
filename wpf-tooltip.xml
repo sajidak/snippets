@@ -64,3 +64,15 @@ xmlns:ed="schemas.microsoft.com/expression/2010/drawing"
 <!-- ========================================================================================== -->
 
 
+
+<!--
+    References:
+    
+	http://community.visual-basic.it/alessandroenglish/archive/2009/04/14/25317.aspx
+
+	http://msdn.microsoft.com/en-us/library/ms745107%28v=vs.110%29.aspx
+	http://msdn.microsoft.com/en-us/library/aa970772%28v=vs.110%29.aspx
+
+	http://stackoverflow.com/questions/11446250/how-to-style-wpf-tooltip-like-a-speech-bubble
+
+-->
