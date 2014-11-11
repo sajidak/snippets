@@ -1,0 +1,66 @@
+<!-- Microsoft.Expression.Drawing assembly -->
+xmlns:ed="schemas.microsoft.com/expression/2010/drawing"
+
+<Window.Resources>
+    <Style x:Key="{x:Type ToolTip}" TargetType="ToolTip">
+        <Setter Property="OverridesDefaultStyle" Value="true" />
+        <Setter Property="HasDropShadow" Value="True" />
+        <Setter Property="Placement" Value="Top"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ToolTip">
+                    <ed:Callout Name="Border"
+                                Width="{TemplateBinding Width}"
+                                Height="{TemplateBinding Height}"
+                                MinWidth="100"
+                                MinHeight="30"
+                                Margin="0,0,0,50"
+                                AnchorPoint="0,1.5"
+                                Background="{StaticResource LightBrush}"
+                                BorderBrush="{StaticResource SolidBorderBrush}"
+                                BorderThickness="1"
+                                CalloutStyle="RoundedRectangle"
+                                Fill="#FFF4F4F5"
+                                FontSize="14.667"
+                                Stroke="Black">
+                        <ContentPresenter Margin="4"
+                                          HorizontalAlignment="Left"
+                                          VerticalAlignment="Top" />
+                    </ed:Callout>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</Window.Resources>
+<!-- ========================================================================================== -->
+
+<Style x:Key="{x:Type ToolTip}" TargetType="ToolTip">
+  <Setter Property="OverridesDefaultStyle" Value="true"/>
+  <Setter Property="HasDropShadow" Value="True"/>
+  <Setter Property="Template">
+    <Setter.Value>
+      <ControlTemplate TargetType="ToolTip">
+        <Border Name="Border"
+          Background="{StaticResource LightBrush}"
+          BorderBrush="{StaticResource SolidBorderBrush}"
+          BorderThickness="1"
+          Width="{TemplateBinding Width}"
+          Height="{TemplateBinding Height}">
+          <ContentPresenter
+            Margin="4" 
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top" />
+        </Border>
+        <ControlTemplate.Triggers>
+          <Trigger Property="HasDropShadow" Value="true">
+            <Setter TargetName="Border" Property="CornerRadius" Value="4"/>
+            <Setter TargetName="Border" Property="SnapsToDevicePixels" Value="true"/>
+          </Trigger>
+        </ControlTemplate.Triggers>
+      </ControlTemplate>
+    </Setter.Value>
+  </Setter>
+</Style>
+<!-- ========================================================================================== -->
+
+
