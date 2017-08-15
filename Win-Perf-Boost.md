@@ -2,9 +2,9 @@
 `Tue, 15-Aug-2017`
 
 
-> Applies to Windows XP, 7, 8 & 8.1  
-> This is written to be helpful and is _not_ definitive, use at your own risk  
-> If you know of more tweaks, raise a pull request or mail me  
+> Applies to Windows XP, 7, 8 & 8.1
+> This is written to be helpful and is _not_ definitive, use at your own risk
+> If you know of more tweaks, raise a pull request or mail me
 
 
 ## Hardware
@@ -13,9 +13,10 @@
 	- Check you mainboard manufacturers specification for compatible brands and speeds
 		- Though others will also work, the manufacturers recommendations are for best compatibility
 		- The recommendations can have a significant result on performance and operating life
-	- Buy the fastest speeds possible in your budget
+	- Buy the fastest speeds possible in your budget, speed used will be the lowest of all memory cards installed
 	- Buy as much RAM as possible
 	- Buy cards of larger size, this will leave room for future expansion
+		- e.g. 1 x 8GB vs 2 x 4GB
 - When buying Graphic (Video) card, buy with highest specification possible in your budget. Some are
 	- GPU core speed
 	- GPU cores count
@@ -65,12 +66,6 @@ Once installation is done, apply the following
 - Folder Options in Windows Exploree
 	- In `View`, choose `List`
 	- You can choose anything except `Details`. Details option will use processor and memory to get details
-
-
-## System Memory
-- The more you can afford, the better
-- Use caution when buying memory to ensure the IO frequency is as high as possible, subject to system bus clock
-- The Memory clock frequency will be set to the lowest frequency of all memory cards installed
 
 
 ## Regular maintainence
