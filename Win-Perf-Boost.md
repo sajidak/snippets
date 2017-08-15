@@ -2,9 +2,9 @@
 `Tue, 15-Aug-2017`
 
 
-> Applies to Windows XP, 7, 8 & 8.1
-> This is written to be helpful and is _not_ definitive, use at your own risk
-> If you know of more tweaks, raise a pull request or mail me
+> Applies to Windows XP, 7, 8 & 8.1  
+> This is written to be helpful and is _not_ definitive, use at your own risk  
+> If you know of more tweaks, raise a pull request or mail me  
 
 
 ## Hardware
